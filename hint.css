@@ -367,3 +367,8 @@
 .rtl .hint--success.hint--right:before {
   border-right-color: transparent;
   border-left-color: #458746; }
+
+
+@media only screen and (max-width: 480px){
+  [data-hint].hint--left:after,[data-hint].hint--left:before,[data-hint].hint--right:after,[data-hint].hint--right:before{display:none;}
+}
