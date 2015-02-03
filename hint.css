@@ -291,3 +291,79 @@
   -webkit-transition: opacity 0.3s ease, visibility 0.3s ease, -webkit-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
   -moz-transition: opacity 0.3s ease, visibility 0.3s ease, -moz-transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s cubic-bezier(0.71, 1.7, 0.77, 1.24); }
+
+
+
+
+
+/*
+ * rtl style
+ */
+
+.rtl .hint--left:before,.hint--reverse.hint--left:before {
+  border-left-color:transparent;
+  border-right-color: #383838; }
+
+.rtl .hint--right:before,.hint--reverse.hint--right:before {
+  border-right-color:transparent;
+  border-left-color: #383838; }
+
+
+.rtl .hint--top:after, .hint--reverse.hint--top:after {
+  margin-left:auto;
+  margin-right: -18px; }
+.rtl .hint--top:before,.rtl .hint--top:after,.hint--reverse.hint--top:before,.hint--reverse.hint--top:after {
+  left: auto;
+  right: 50%; }
+
+.rtl .hint--bottom:after, .hint--reverse.hint--bottom:after {
+  margin-left:auto;
+  margin-right: -18px; }
+.rtl .hint--bottom:before,.rtl .hint--bottom:after,.hint--reverse.hint--bottom:before,.hint--reverse.hint--bottom:after {
+  left: auto;
+  right: 50%; }
+
+
+.rtl .hint--right:before,.hint--reverse.hint--right:before {
+  margin-left:auto;
+  margin-right: -12px;}
+.rtl .hint--right:before, .rtl .hint--right:after, .hint--reverse.hint--right:before, .hint--reverse.hint--right:after {
+  left:auto;
+  right: 115%;}
+
+.rtl .hint--left:before,.hint--reverse.hint--left:before {
+  margin-right:auto;
+  margin-left: -12px;}
+.rtl .hint--left:before, .rtl .hint--left:after,.hint--reverse.hint--left:before, .hint--reverse.hint--left:after {
+  right:auto;
+  left: 115%;}
+
+
+
+.rtl .hint--error.hint--left:before {
+  border-left-color: transparent;
+  border-right-color: #b34e4d; }
+.rtl .hint--error.hint--right:before {
+  border-right-color: transparent;
+  border-left-color: #b34e4d; }
+
+.rtl .hint--warning.hint--left:before {
+  border-left-color: transparent;
+  border-right-color: #c09854; }
+.rtl .hint--warning.hint--right:before {
+  border-right-color: transparent;
+  border-left-color: #c09854; }
+
+.rtl .hint--info.hint--left:before {
+  border-left-color: transparent;
+  border-right-color: #3986ac; }
+.rtl .hint--info.hint--right:before {
+  border-right-color: transparent;
+  border-left-color: #3986ac; }
+
+.rtl .hint--success.hint--left:before {
+  border-left-color: transparent;
+  border-right-color: #458746; }
+.rtl .hint--success.hint--right:before {
+  border-right-color: transparent;
+  border-left-color: #458746; }
